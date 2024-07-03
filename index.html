@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Dice-game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./images/paper.png">
+    <script src="https://kit.fontawesome.com/4556b96015.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1 class="heading-main">
+            <!-- SVG CODE BELOW -->
+            Rock Paper Scissor
+            
+        </h1>
+    </div>
+    <div class="main">
+        <button onclick="refresh()"><i class="fa-solid fa-rotate-right"></i> </button><p>Play Again!</p>
+    </div>
+    <div class="result">
+        <h3>Player 1 won</h3>
+    </div>
+    <div class="conatiner">
+        <div class="dice-1">
+        <h4>Player-1</h4>
+        <img id="image1"  src="./images/rock.png" alt="dice1" height="200px">
+    </div>
+    <div class="dice-2">
+        <h4>Player-2</h4>
+        <img id="image2" src="./images/rock.png" alt="dice2" height="200px">
+    </div>
+    </div>
+<script src="script.js"></script>    
+</body>
+</html>
